@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Bouncer",
+      "type": "cppdbg",
+      "request": "launch",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "program": "${workspaceFolder}/Build/Bouncer",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "Build Bounce (Debug)"
+    }
+  ],
+  "compounds": []
+}
