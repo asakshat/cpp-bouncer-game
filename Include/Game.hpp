@@ -2,16 +2,19 @@
 
 #include <SFML/Graphics.hpp>
 
-class Game
-{
-private:
-    sf::RenderWindow window_;
+#include "Player.hpp"
 
-public:
-    Game();
-    bool IsRunning() const;
+class Game {
+ private:
+  sf::RenderWindow window_;
+  sf::Clock clock_;
+  Player player_;
 
-    void ProcessEvents();
-    void Update();
-    void Render();
+ public:
+  Game();
+  bool IsRunning() const;
+
+  void ProcessEvents();
+  void Update();
+  void Render();
 };

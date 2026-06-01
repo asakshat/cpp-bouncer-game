@@ -5,7 +5,7 @@
       "label": "Build Bounce (Debug)",
       "type": "shell",
       "command": "cmake",
-      "args": ["--build", "Build", "--config", "Debug", "-j"],
+      "args": ["--build", "build", "--config", "Debug", "-j"],
       "group": { "kind": "build", "isDefault": true }
     }
   ]

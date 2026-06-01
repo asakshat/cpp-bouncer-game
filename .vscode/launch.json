@@ -7,7 +7,7 @@
       "request": "launch",
       "MIMode": "gdb",
       "miDebuggerPath": "/usr/bin/gdb",
-      "program": "${workspaceFolder}/Build/Bouncer",
+      "program": "${workspaceFolder}/build/Bouncer",
       "cwd": "${workspaceFolder}",
       "preLaunchTask": "Build Bounce (Debug)"
     }
